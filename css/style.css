@@ -9,6 +9,8 @@ header{
   width: 100%;
   height: 80vh;
   background-color: #00A17A;
+  margin-bottom: 5%;
+
 }
 .navbar{
   width: 100%;
@@ -41,6 +43,10 @@ display: none;
 }
 .navbar li ,.dropdown-menu li{
 list-style: none;
+padding: 1rem;
+}
+.navbar li:hover ,.dropdown-menu li:hover{
+  background-color: rgba(255, 255, 255, 0.559);
 }
 .navbar a ,.dropdown-menu a{
 text-decoration: none;
@@ -118,6 +124,112 @@ justify-content: center;
  
   
 }
+.hero h1{
+  font-family: 'Montserrat';
+  font-size: 8rem;
+  color: white;
+}
+
+
+/* A propos  */
+
+.textPropos{
+  font-family: 'Montserrat';
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2%;
+}
+.apropos
+{
+  width: 60%;
+  height: 35vh;
+  display: flex;
+  margin: 0 auto;
+  
+}
+.proposImg{
+  width: 50%;
+  height: 100%;
+
+}
+.textIMg{
+  width: 50%;
+  height: 100%;
+ text-align: justify; 
+  padding: 0 1rem ;
+  font-family: 'Montserrat';
+  
+  
+}
+
+/* Mesures */
+    .mesure{
+      width: 60%;
+      height: 35vh;
+      margin: 0 auto;
+      margin-top: 5%;
+      font-family: 'Montserrat';
+    }
+    .mesure h1{
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    .log{
+      display: flex;
+      gap: 10px;
+      margin: 0 auto;
+    }
+    .rond{
+      width: 20px;
+      height: 20px;
+      border-radius: 100%;
+      background-color: #00A17A;
+      margin: 10px;
+    }
+
+
+
+    /* footer */
+
+
+
+footer{
+  width: 100%;
+  height: auto;
+  background-color: azure;
+  margin-top: 10%;
+}
+
+.seconde{
+  
+  display: flex;
+  justify-content: space-evenly;
+  background-color:  hsl(0deg 0% 13% / 80%);
+}
+.seconde div{
+
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.logo h1{
+  color: white;
+  font-family: 'Pacifico';
+}
+
+
+.categories p{
+  line-height: 28px;
+  font-family: 'Montserrat';
+
+}
+.information a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  line-height: 28px;
+  font-family: 'Montserrat';
+}
+
 
 
 
@@ -134,22 +246,7 @@ justify-content: center;
   .dropdown-menu{
     display: block;
   }
-  .gratos div{
-    flex-direction: column;
-  }
-  .login input,  .login button{
-    width: auto;
-  }
-  .seconde{
-    flex-direction: column;
-  }
-  .container{
-      flex-direction: column;
-  }
-  .contenu {
-    width: auto;
-    height: auto;
-}
+  
 
 }
 @media(max-width:576px){
@@ -158,8 +255,5 @@ justify-content: center;
     width: unset;
   }
   
-  .contenu {
-    width: auto;
-    height: auto;
-}
+ 
 }
