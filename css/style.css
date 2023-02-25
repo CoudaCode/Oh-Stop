@@ -7,12 +7,13 @@
 header{
   position: relative;
   width: 100%;
-  height: 100vh;
-  
+  height: 80vh;
+  background-color: #00A17A;
 }
 .navbar{
   width: 100%;
   height: 64px;
+  
   position: fixed;
   z-index: 1000;
   margin: 0 auto;
@@ -108,15 +109,16 @@ justify-content: center;
 
 
 .hero{
-  height: calc(100vh - 64px);
+  height: calc(75vh - 40px);
   flex-direction: row;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  gap: 10px;
+ 
   
 }
+
 
 
 /* MEDIA QUERIES */
