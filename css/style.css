@@ -44,7 +44,7 @@ list-style: none;
 .navbar a ,.dropdown-menu a{
 text-decoration: none;
 color: #fff;
-font-family: ;
+/* font-family: ; */
 text-transform: uppercase;
 font-size: 1.2rem;
 }
